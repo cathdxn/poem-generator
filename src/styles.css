@@ -27,16 +27,30 @@ body {
     line-height: 1.5;
     color: #e4d1d3;
   }
-  
-  form {
+
+  select {
+    padding: 5px;
+    margin: 0px 10px 10px 10px;
+    font-size: 16px;
+    border: 1px solid  #dd0a35;
+    border-radius: 10px;
+  }
+
+  .language-selector-label {
+    padding-top: 5px;
+  }
+  .poem-form {
     padding: 35px;
     background-color: #e4d1d3;
     box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
     border-radius: 10px;
-    display: flex;
     margin: 30px 0px;
   }
-  
+
+  form {
+    display: flex;
+  }
+
   .keyword-input {
     padding: 16px;
     border: 1px solid  #dd0a35; 
