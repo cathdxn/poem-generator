@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Poem Generator</title>
+</head>
+<body>
+       <div class="container">
+        <header><h1>French Poem Generator</h1></header>
+        <main>
+        <div>
+            
+            <form id="poem-keyword-form">
+                <input
+              type="text"
+              placeholder="Enter a topic..."
+              autofocus
+              required
+              autocomplete="off"
+              class="keyword-input"
+              id="keyword-input"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+        </div>
+        <div class="poem hidden" id="poem"></div>
+        
+       </div>
+    </main>
+    <footer><a href="https://github.com/cathdxn" target="_blank">Open-sourced code</a> by Catherine Dixon</a></footer>
+    <script src="src/index.js"></script>
+</body>
+</html>
